@@ -1,0 +1,9 @@
+/* 
+  InfoPlist.strings
+  multi_language
+
+  Created by GDM on 2020/5/18.
+  Copyright © 2020 GDM. All rights reserved.
+*/
+
+CFBundleDisplayName = "nicai";
