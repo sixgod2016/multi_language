@@ -8,6 +8,8 @@
 
 import Foundation
 
+// https://www.jianshu.com/p/732f2a3e9ffa
+
 class DAConfig: NSObject {
     static let UWUserLanguageKey = "UWUserLanguageKey"
     class func setUserLanguage(userLanguage: String) {
