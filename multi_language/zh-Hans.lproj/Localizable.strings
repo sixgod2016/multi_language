@@ -6,3 +6,5 @@
   Copyright © 2020 GDM. All rights reserved.
 */
 "title" = "首页";
+
+"comment" = "Swift4 中引入了 Codable 协议，可以大大减轻了我们的工作量。我们只需要让需要序列化的对象符合 Codable 协议即可，不用再写任何其他的代码。";

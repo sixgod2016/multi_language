@@ -6,3 +6,5 @@
   Copyright © 2020 GDM. All rights reserved.
 */
 "title" = "First";
+
+"comment" = "The Codable protocol was introduced in Swift4, which can greatly reduce our workload. We only need to make the objects that need to be serialized conform to the Codable protocol, without writing any other code.";

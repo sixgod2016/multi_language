@@ -34,9 +34,14 @@ class ViewController: UIViewController {
     }
 
     @objc func buttonClick(_ sender: UIButton) {
-        sender.isSelected = !sender.isSelected
-        selectedLanguage = sender.isSelected ? 0 : 1
-        title = appLanguage.localizedString(key: "title", comment: "")
+        let next = SecondViewController()
+        next.returnAction = {
+            UIApplication.shared.keyWindow?.rootViewController = UINavigationController(rootViewController: ViewController())
+        }
+        self.navigationController?.pushViewController(next, animated: true)
+//        sender.isSelected = !sender.isSelected
+//        selectedLanguage = sender.isSelected ? 0 : 1
+//        title = appLanguage.localizedString(key: "title", comment: "")
     }
     
 }
